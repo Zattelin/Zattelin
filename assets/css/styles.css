@@ -1,0 +1,67 @@
+
+
+.name {
+    background: #12e0e8;
+    font-size: 15px;
+    padding: 4px;
+    color: white;
+    float: left;
+    left: 400px
+}
+
+.header {
+    background: #999;
+    width: 100%;
+    float: left;
+}
+
+.about {
+    float: right;
+    background: #eee;
+    height: 20px;
+    padding: 4px
+}
+
+.portfolio {
+    float: right;
+    background: #eee;
+    height: 20px;
+    padding: 4px
+}
+
+.contact {
+    float: right;
+    background: #eee;
+    height: 20px;
+    padding: 4px
+}
+
+.frame {
+    background: #eeeeee;
+    width: 960px;
+    margin: auto;
+    bottom: 0px;
+    border: 4px;
+    clear: left;
+
+}
+
+.bio-image {
+    float: left;
+    width: 125px;
+    padding-right: 15;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .h2 {
+      color: #12e0e8;
+  }
+
+  .h1 {
+    background-color: #12e0e8;
+}
